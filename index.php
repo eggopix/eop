@@ -17,7 +17,7 @@
                 <li>CSS</li>
                 <li>PHP</li>
                 <li>SQL</li>
-                <li>DIVERS</li>
+                <li>MISC</li>
                 <li>CONTACT</li>
             </ul>
         </nav>
