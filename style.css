@@ -1,74 +1,42 @@
-/* S9/S9+ android 360*740 */
-body{
-    margin: 0;
-    padding: 0;
-    background: cornflowerblue;
-}
-.fullpage{
-    display: grid;
-    grid-template-columns: 10px 10px 200px 10px 10px 10px 90px 10px 10px;
-    grid-template-rows: 40px 60px 10px 60px 40px 10px 165px 10px 150px 10px 135px 10px 5px 40px;
-    grid-gap: 0px;
-    justify-items: stretch;
-    align-items: stretch;
-}
 header{
-    grid-column: 1 / 10;
-    grid-row: 1 / 2;
-    border: 1px;
-    background: royalblue;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 9fr 1fr;
+    grid-template-areas: 
+        "menu logo logo login"
+        "nav nav nav nav"
+        "sidebar main main main"
+        "footer footer footer footer";
+}
+.logo{
+    grid-area: logo;
+    background: blue;
+}
+.menu{
+    grid-area: menu;
+    background: red;
+}
+.login{
+    grid-area: login;
+    background: green;
 }
 nav{
-    grid-column: 1 / 10;
-    grid-row: 2 / 3;
-    border: 1px;
-    background: coral;
+    grid-area: nav;
+    background: pink;
 }
-.intro{
-    grid-column: 3 / 6;
-    grid-row: 4 / 6;
-    border: 1px;
-    background: royalblue;
+main{
+    grid-area: main;
+    background: cadetblue;
 }
-.progress{
-    grid-column: 7 / 9;
-    grid-row: 5 / 8;
-    border: 1px;
-    background: coral;
+aside{
+    grid-area: sidebar;
+    background: yellowgreen;
 }
-.last-article{
-    grid-column: 2 / 4;
-    grid-row: 7 / 10;
-    border: 1px;
-    background: royalblue;
-}
-.best-links{
-    grid-column: 5 / 8;
-    grid-row: 9 / 13;
-    border: 1px;
-    background: coral;
-}
-.photo-video{
-    grid-column: 3 / 4;
-    grid-row: 11 / 12;
-    border: 1px;
-    background: royalblue;
-    display: flex;
-    align-content: flex-start;
-    justify-content: center;
-    flex-wrap: wrap;
-    overflow: scroll;
-}
-.photo-video img{
-    padding: 5px;
-    max-height: 50px;
-    max-width: 50px;
+footer{
+    grid-area: footer;
+    background: yellow;
 }
 
-footer{
-    grid-column: 1 / 10;
-    grid-row: 14 / 15;
-    border: 1px;
-    background: coral;
-}
+
 
