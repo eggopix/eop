@@ -7,23 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">LOGO</div>
-        <div class="menu">MENU</div>
-        <div class="login">LOGIN</div>
-        <nav>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-                <li>SQL</li>
-                <li>MISC</li>
-                <li>CONTACT</li>
-            </ul>
-        </nav>
-        <main>MAIN</main>
-        <aside>ASIDE</aside>
-        <footer>FOOTER</footer>
+    <div class="page">
+        <?php include('header.php'); ?>
+        <?php include('main.php'); ?>
+        <?php include('footer.php'); ?>
     </div>
 </body>
 </html>

@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-header{
+.page{
     height: 100vh;
     display: grid;
     grid-template-columns: 1.5fr 3fr 3fr 1fr;
@@ -11,7 +11,7 @@ header{
     grid-template-areas: 
         "menu logo logo login"
         "nav nav nav nav"
-        "sidebar main main main"
+        "main main main main"
         "footer footer footer footer";
 }
 .logo{
