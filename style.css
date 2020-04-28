@@ -12,6 +12,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'hindlight';
+    src: url('fonts/hind-light-webfont.woff2') format('woff2'),
+         url('fonts/hind-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /** page component **/
 .page{
     height: 100vh;
@@ -157,11 +164,55 @@ main{
     grid-area: main;
     background:rgba(41,45,62);
 }
+article{
+    margin: 10px;
+    padding: 10px;
+    background: rgba(130,137,185);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article h2{
+    background: inherit;
+    padding: 10px;
+    font-family: righteousregular;
+    font-size: 2rem;
+    color: rgba(41,45,62);
+    text-align: center;
+}
+.article-date{
+    align-self: flex-end;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    background: inherit;
+    border-radius: 20px;
+    font-family: righteousregular;
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgba(41,45,62,0.5);
+}
+.article-date .fa-calendar-alt{
+    background: inherit;
+}
+article img{
+    width: 50px;
+    height:50px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+article p{
+    background: inherit;
+    text-align: justify;
+    font-family: hindlight;
+}
 /** footer component **/
 footer{
     grid-area: footer;
-    background:rgba(41,45,62);
     display: flex;
+    margin-top: 10px;
+    background:rgba(41,45,62);
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
