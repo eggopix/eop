@@ -14,18 +14,48 @@
         "main main main main"
         "footer footer footer footer";
 }
-.logo{
-    grid-area: logo;
-    background: blue;
-}
+/** menu component **/
 .menu{
     grid-area: menu;
     background: red;
 }
+.menu p{
+    text-align: center;
+    color: rgba(56,59,64);
+    font-size: 2rem;
+    margin-top: 20%;
+}
+/** logo component **/
+.logo{
+    grid-area: logo;
+    background: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-image{
+    border-radius: 50%;
+    overflow: hidden;
+    height: 75px;
+    width: 75px;
+    background:yellowgreen;
+}
+.logo-image img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/** login component **/
 .login{
     grid-area: login;
     background: green;
 }
+.login p{
+    text-align: center;
+    color: rgba(56,59,64);
+    font-size: 2rem;
+    margin-top: 30%;
+}
+/** nav component **/
 nav{
     grid-area: nav;
     background: pink; 
@@ -46,16 +76,12 @@ nav ul li{
     padding: 2px;
     background: firebrick;
 }
-
-
+/** main component **/
 main{
     grid-area: main;
     background: cadetblue;
 }
-aside{
-    grid-area: sidebar;
-    background: yellowgreen;
-}
+/** footer component **/
 footer{
     grid-area: footer;
     background: yellow;
