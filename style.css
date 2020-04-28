@@ -2,7 +2,7 @@
     margin:0px;
     padding: 0px;
 }
-
+/** page component **/
 .page{
     height: 100vh;
     display: grid;
@@ -69,13 +69,25 @@ nav ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch;
+    
 }
 nav ul li{
     list-style: none;
-    margin: 2px;
-    padding: 2px;
-    background: firebrick;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
 }
+nav ul a:link{
+    color: rgba(56,59,64);
+    }
+nav ul a:visited{
+    color: rgba(56,59,64);
+    }
+nav ul a:hover{
+    color: rgba(104,96,175, 0.9);
+    font-size: 1.8rem;
+    }
 /** main component **/
 main{
     grid-area: main;
