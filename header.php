@@ -11,7 +11,7 @@
 </div>
 <nav>
     <ul>
-        <div class=html><li><a href="html.php"><i class="fab fa-html5"></i></a></li></div>
+        <li><a href="html.php"><i class="fab fa-html5"></i></a></li>
         <li><a href="css.php"><i class="fab fa-css3-alt"></i></a></li>
         <li><a href="php.php"><i class="fab fa-php"></i></a></li>
         <li><a href="sql.php"><i class="fas fa-database"></i></a></li>

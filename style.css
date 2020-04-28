@@ -17,18 +17,19 @@
 /** menu component **/
 .menu{
     grid-area: menu;
-    background: red;
+    background: rgba(41,45,62);
 }
 .menu p{
     text-align: center;
-    color: rgba(56,59,64);
+    color: rgba(220,127,70);
     font-size: 2rem;
-    margin-top: 20%;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 /** logo component **/
 .logo{
     grid-area: logo;
-    background: blue;
+    background:rgb(41,45,62);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +39,7 @@
     overflow: hidden;
     height: 75px;
     width: 75px;
-    background:yellowgreen;
+    margin-top: 10px;
 }
 .logo-image img{
     max-width: 100%;
@@ -47,18 +48,19 @@
 /** login component **/
 .login{
     grid-area: login;
-    background: green;
+    background:rgba(41,45,62);
 }
 .login p{
     text-align: center;
-    color: rgba(56,59,64);
+    color: rgba(220,127,70);
     font-size: 2rem;
-    margin-top: 30%;
+    margin-top: 25px;
+    margin-right: 25px;
 }
 /** nav component **/
 nav{
     grid-area: nav;
-    background: pink; 
+    background:rgba(41,45,62);
     display: flex; 
     align-items: center; 
     justify-content: space-evenly;
@@ -67,7 +69,7 @@ nav ul{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: stretch;
     align-items: stretch;
     
 }
@@ -79,14 +81,13 @@ nav ul li{
     font-size: 2rem;
 }
 nav ul a:link{
-    color: rgba(56,59,64);
+    color: rgba(220,127,70);
     }
 nav ul a:visited{
-    color: rgba(56,59,64);
+    color: rgba(220,127,70);
     }
 nav ul a:hover{
     color: rgba(104,96,175, 0.9);
-    font-size: 1.8rem;
     }
 /** main component **/
 main{
