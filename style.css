@@ -228,7 +228,8 @@ footer a:hover{
     }
 /** footer-left **/
 .footer-left{
-    margin-bottom: 8px;
+    margin-bottom: 30px;
+    margin-left: 15px;
     font-size: 1.5rem;
     flex-grow: 1;
 }
@@ -246,7 +247,7 @@ footer a:hover{
     }
 /** foooter-middle **/
 .footer-middle{
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     flex-grow: 1;
     font-family: righteousregular;
     font-size: 0.8rem;
@@ -255,7 +256,8 @@ footer a:hover{
 }
 /** footer-right **/
 .footer-right{
-    margin-bottom: 8px;
+    margin-bottom: 30px;
+    margin-right: 15px;
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
