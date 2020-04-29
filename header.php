@@ -1,5 +1,24 @@
 <div class="menu">
-    <p><i class="fas fa-bars"></i></p>
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="index.php"><i class="fas fa-igloo"></i>&nbsp;&nbsp;HOME</a></li>
+                        <li><a href="html.php"><i class="fab fa-html5"></i>&nbsp;&nbsp;HTML</a></li>
+                        <li><a href="css.php"><i class="fab fa-css3-alt"></i>&nbsp;&nbsp;CSS</a></li>
+                        <li><a href="php.php"><i class="fab fa-php"></i>&nbsp;&nbsp;PHP</a></li>
+                        <li><a href="sql.php"><i class="fas fa-database"></i>&nbsp;&nbsp;SQL</a></li>
+                        <li><a href="misc.php"><i class="fas fa-book"></i>&nbsp;&nbsp;OTHERS</a></li>
+                        <li><a href="pidxdeo.php"><i class="fas fa-photo-video"></i>&nbsp;&nbsp;PIxDEO</a></li>
+                        <li><a href="contact.php"><i class="fas fa-at"></i>&nbsp;&nbsp;CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="logo">
     <div class="logo-image">

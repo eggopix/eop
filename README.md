@@ -4,6 +4,9 @@ After 4 months of self-study, mainly theoric, time for me to put hands on keyboa
 
 
 29-04-20:
+- add hamburger animated menu with css
+- put primary/secondaray/overlay colors in variables in style.css 
+- put head on a separate file 
 
 28-04-20:
 - v0.2 branch goals: drop-down menu, login system for users
