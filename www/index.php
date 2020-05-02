@@ -1,9 +1,11 @@
 <?php include('head.php'); ?>
 <body>
     <div class="page">
-        <?php include('header.php'); ?>
-        <?php include('main.php'); ?>
-        <?php include('footer.php'); ?>
+        <?php 
+          require 'header.php';
+          require 'main.php'; 
+          require 'footer.php'; 
+        ?>
     </div>
 </body>
 </html>
