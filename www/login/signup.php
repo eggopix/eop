@@ -30,9 +30,16 @@
             }
           } 
           elseif ($_GET['signup'] == "success") {
-              echo '<p class="signup-error">Signup successfull !</p>';
+              echo '<p class="signup-success">Signup successfull !</p>';
+          }
+          // succes message when password updated
+          if (isset($_GET['newpwd'])) {
+            if ($_GET['newpwd'] == "passwordupdated") {
+              echo '<p class="password-update-success">Your password has been updated successfully !</>';
+            }
           }
         ?>
+        
         <form class="form-signup" action="includes/signup.inc.php" method="post">
           <input type="text" name="uid" placeholder="Username ">
           <input type="text" name="mail" placeholder="E-mail">
@@ -40,6 +47,9 @@
           <input type="password" name="pwd-repeat" placeholder="Repeat password">
           <button type="submit" name="signup-submit">Submit</button>
         </form>
+        
+
+        <a href="reset-password.php">Forgot your password ?</a>
 
       </section> 
       </div>

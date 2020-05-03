@@ -2,11 +2,17 @@
 Study work
 After 4 months of self-study, mainly theoric, time for me to put hands on keyboard for a tiny first project.
 
+03-05-20: 
+- login system update:
+  - add a password recovery system
+  - recover password with email and tokens
+
 02-05-20:
 - first login system, not implemented yet (see login folder):
   - signup, login, logout page
   - errors handling
   - return errors to user
+  - password hashing
 
 29-04-20:
 - add hamburger animated menu with css
