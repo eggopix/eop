@@ -20,6 +20,7 @@ body {
 .page {
   height: 100vh;
   display: grid;
+  background-color: var(--primary-color);
   grid-template-columns: 1.5fr 3fr 3fr 1fr;
   grid-template-rows: 0.6fr 0.6fr 9fr 1fr;
   grid-template-areas: 
@@ -282,6 +283,7 @@ footer a:hover {
   justify-content: flex-end;
   flex-direction: row;
   font-size: 1.5rem;
+  padding-right: 10px;
 }
 
 .social-linkedin {

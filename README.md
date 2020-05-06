@@ -1,6 +1,10 @@
 # eop
 Study work
-After 4 months of self-study, mainly theoric, time for me to put hands on keyboard for a tiny first project.
+
+
+04-05-20:
+- suspend login system 
+- more test with SQL - PHP first to do
 
 03-05-20: 
 - login system update:
