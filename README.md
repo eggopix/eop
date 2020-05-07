@@ -1,6 +1,8 @@
 # eop
 Study work
 
+07/05/20:
+- reboot
 
 04/05/20:
 - suspend login system 
