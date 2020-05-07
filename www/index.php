@@ -13,7 +13,7 @@
           <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;<?php echo $data['date']; ?><br/>
           </div>
           <div class="content"> 
-            <?php echo $data['content']; }?><br/>
+            <?php echo $data['content']; ?><br/>
           </div>
         </article>
       </main>

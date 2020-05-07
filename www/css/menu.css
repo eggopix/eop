@@ -91,7 +91,7 @@
 
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
-  transition:  opacity 0.4s ease;
+  transition: opacity 0.4s ease;
 }
 
 /* place the menu on middle of the screen */

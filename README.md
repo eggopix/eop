@@ -2,16 +2,16 @@
 Study work
 
 
-04-05-20:
+04/05/20:
 - suspend login system 
 - more test with SQL - PHP first to do
 
-03-05-20: 
+03/05/20: 
 - login system update:
   - add a password recovery system
   - recover password with email and tokens
 
-02-05-20:
+02/05/20:
 - first login system, not implemented yet (see login folder):
   - signup, login, logout page
   - errors handling

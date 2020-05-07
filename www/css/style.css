@@ -1,15 +1,15 @@
 :root {
-  --primary-color: rgba(41, 45, 62, 0.75);
-  --secondary-color: rgba(104, 96, 175, 0.6);
+  --primary-color: rgba(41, 45, 62);
+  --secondary-color: rgba(141, 109, 193, 0.8);
   --overlay-color: rgba(31, 15, 75, 0.6);
   --menu-speed: 0.9s;
 }
 
 *{
-  margin:0px;
-  padding: 0px;
+  margin:0;
+  padding: 0;
   box-sizing: border-box;
-  background:rgb(41, 45, 62);
+  background: var(--primary-color);
 }
 
 body {
@@ -17,24 +17,23 @@ body {
   line-height: 1.4;
 }
 
-.page {
-  height: 100vh;
+header {
   display: grid;
   background-color: var(--primary-color);
-  grid-template-columns: 1.5fr 3fr 3fr 1fr;
-  grid-template-rows: 0.6fr 0.6fr 9fr 1fr;
-  grid-template-areas: 
-    "menu logo logo login"
-    "nav nav nav nav"
-    "main main main main"
-    "footer footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: minmax(50px) minmax(50px);
+  margin-bottom: 5px;
 }
 
-/** logo component **/
+.ham-menu {
+  grid-row: 1 / 1;
+  grid-column: 1 / 2;
+}
+
 .logo {
-  grid-area: logo;
-  background:rgba(41, 45, 62);
-  display:flex;
+  grid-row: 1 / 1;
+  grid-column: 2 / 3;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -42,8 +41,8 @@ body {
 .logo-image {
   border-radius: 50%;
   overflow: hidden;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   margin-top: 10px;
 }
 .logo-image img {
@@ -51,43 +50,46 @@ body {
   max-height: 100%;
 }
 
-/** login component **/
+
 .login {
-  grid-area: login;
-  background:rgba(41, 45, 62);
+  grid-row: 1 / 1;
+  grid-column: 3 / 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 15px;
 }
 
-.login p {
-  text-align: center;
-  color: var(--secondary-color);
+.fa-user {
   font-size: 2rem;
-  margin-top: 25px;
-  margin-right: 20px;
+  color: var(--secondary-color);
+  background: inherit;
+  text-align: right;
+
 }
 
 /** nav component **/
 nav {
-  grid-area: nav;
-  background:rgba(41, 45, 62);
-  display: flex; 
-  align-items: center; 
-  justify-content: space-evenly;
+  grid-row: 2 / 2;
+  grid-column: 1 / 4;
+  margin-top: 15px;
 }
 
 nav ul {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: stretch;
-  align-items: stretch;
+  justify-content: space-evenly;
 }
 
 nav ul li {
   list-style: none;
-  margin-top: 8px;
-  padding: 12px;
   text-align: center;
   font-size: 1.8rem;
+}
+
+nav ul li:hover {
+  opacity: 0.4;
 }
 
 .html a:link {
@@ -173,54 +175,6 @@ nav ul li {
 .contact a:hover {
   color: rgba(var(--secondary-color));
 }
-
-/** main component **/
-main {
-  background: var(--primary-color);
-  grid-area: main;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-main div {
-  background: var(--secondary-color);
-  width: 90vw;
-}
-
-.title {
-  margin-top: 10px;
-  padding: 10px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.title h2 {
-  background: var(--secondary-color);
-  text-align: center;
-  font-size: 1.3rem;
-
-}
-
-.date {
-  padding-right: 20px;
-  text-align: right;
-  color: rgba(255, 255, 255, 0.2);
-}
-
-.fa-calendar-alt {
-  background: inherit;
-  color: rgba(255, 255, 255, 0.2);
-  font-size: 1.2rem;
-}
-
-.content {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  padding: 15px;
-  text-align: justify;
-}
-
 
 /** footer component **/
 footer {
