@@ -1,6 +1,9 @@
 # eop
 Study work
 
+08/05/20:
+- work on basic testimonial system
+
 07/05/20:
 - reboot
 
