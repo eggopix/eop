@@ -1,6 +1,8 @@
 # eop
 Study work
 
+V 0.2 
+
 10/05/20: 
 - go to 0.2 : automation of content flow
 - destination of project : personnal toolbox
