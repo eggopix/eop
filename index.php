@@ -57,6 +57,491 @@
         </ul>
       </nav>
     </header>
+    <br>
+    <!-- tool component -->
+    <section class="tool-container">
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+      <div class="tool">
+        <div class="tool-title">
+          <h2>PHP - English manual</h2>
+        </div>
+        <div class="tool-info">
+          <div class="tool-info-img">
+            <img src="https://picsum.photos/200" alt="tool-img"/>
+          </div>
+          <div class="tool-info-src">
+            http://www.php.net
+          </div>
+          <div class="tool-info-date">
+            <i class="fas fa-calendar-alt"></i>&nbsp;10/05/2020
+          </div>
+        </div>
+        <div class="tool-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea optio quo incidunt minus harum quam temporibus voluptatem dolorem, sapiente provident voluptate accusamus distinctio a ad omnis dignissimos adipisci explicabo voluptatum.
+        </div>
+        <div class="tool-info2">
+          <div class="tool-info2-numberdown">
+            100
+          </div>
+          <div class="tool-info2-downvote">
+            <i class="far fa-thumbs-down"></i>
+          </div>
+          <div class="tool-info2-upvote">
+            <i class="far fa-thumbs-up"></i>
+          </div>
+          <div class="tool-info2-numberup">
+            250
+          </div>
+          <div class="tool-info2-tag">
+            php, doc, text, en
+          </div>
+          <div class="tool-info2-visit">
+            <butto class="visit-button">read</butto>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- testimonial component -->
     <section>
       <div class="testimonial-container">
         <div class="testimonial-form">
@@ -121,5 +606,19 @@
       mysqli_close($dbcon);
       ?>
     </section>
+    <footer>
+      <div class="footer-left">
+      </div>
+      <div class="footer-middle">
+      </div>
+      <div class="footer-right">
+        <div class="social-linkedin">
+          <a href="https://www.linkedin.com/in/nicolas-deno%C3%ABl-0609281a"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="social-github">
+          <a href="https://github.com/eggopix"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,6 +1,12 @@
 # eop
 Study work
 
+10/05/20: 
+- go to 0.2 : automation of content flow
+- destination of project : personnal toolbox
+- one tool = one article
+- responsive layout for tool create
+
 08/05/20:
 - work on basic testimonial system
 
