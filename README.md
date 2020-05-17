@@ -1,6 +1,10 @@
 # eop
 Study work
 
+17/05/20
+
+- flow content automated with an sql link to database
+
 V 0.2 
 
 10/05/20: 

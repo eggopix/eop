@@ -209,6 +209,8 @@ section {
 }
 
 .tool-title {
+  padding-left: 10px;
+  font-family: 'Orbitron', sans-serif;
   color: #FFFFFF;
 }
 
@@ -314,13 +316,13 @@ section {
 
 .visit-button {
   border: 2px solid #e7e7e7;
+  background: transparent;
   color: white;
   padding: 10px 70px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   display: inline-block;
-  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   transition-duration: 0.4s;
@@ -328,7 +330,6 @@ section {
 
 .visit-button:hover {
   background-color: var(--secondary-color);
-  color: #fff;
 }
 
 .tool-info2-tag {
